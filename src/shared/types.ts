@@ -1,4 +1,4 @@
-import { JSX } from "react/jsx-dev-runtime";
+import { JSX } from "react/jsx-runtime";
 
 export enum SelectedPage {
   Home = "home",
