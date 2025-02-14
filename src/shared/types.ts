@@ -1,5 +1,3 @@
-import { JSX } from "react/jsx-runtime";
-
 export enum SelectedPage {
   Home = "home",
   Benefits = "benefits",
@@ -8,7 +6,7 @@ export enum SelectedPage {
 }
 
 export interface BenefitType {
-  icon: JSX.Element;
+  icon: React.ReactNode;
   title: string;
   description: string;
 }
